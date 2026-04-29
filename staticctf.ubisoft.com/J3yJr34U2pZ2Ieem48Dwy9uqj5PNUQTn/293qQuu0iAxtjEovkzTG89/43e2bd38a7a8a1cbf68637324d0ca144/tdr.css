@@ -1,0 +1,66 @@
+.moduleGameSiteNavigation {
+  background-color: #000;
+}
+
+.module--promotion-short-text-only-with-social .promo__wrapper__content a.btn {
+  background-color: #ff6a13;
+}
+
+.modulePromo.module--promotion-short-text-only-with-social .promo .btn:after {
+  background-color: #fff;
+  text-decoration-color: #fff;
+}
+
+.sitegen-string-field-embedded:nth-child(2)
+  .sitegen-string-field-embedded__container {
+  display: none;
+}
+
+/* For the last question: hide the question part and let the answer part take the whole width */
+
+.sitegen-string-field-embedded .sitegen-string-field-embedded__container {
+  display: none;
+}
+
+.sitegen-dropdown-embedded:nth-child(11) .sitegen-dropdown-embedded__label {
+  display: none;
+}
+
+.sitegen-dropdown-embedded:nth-child(11) .sitegen-dropdown-embedded__container {
+  width: 100%;
+}
+
+/* Prettier dropdowns */
+
+.sitegen-beta-custom-fields__content-embedded .sitegen-dropdown__menu {
+  background-color: #606060;
+}
+
+.sitegen-beta-custom-fields__content-embedded
+  .sitegen-dropdown__menu
+  div
+  div:hover {
+  background-color: #ff6a13;
+}
+
+/* idk but I guess you do */
+
+.sitegen-page-support-block-embedded {
+  display: none;
+}
+
+.sitegen-platform-button__info {
+  max-height: 2em;
+}
+
+.sitegen-platform-button__tile {
+  height: auto;
+}
+
+.module--feature-coming-soon .promo__wrapper__content .btn {
+  margin: 0!important;
+}
+
+.module--feature-coming-soon .promo__wrapper__content .btn:nth-of-type(3) {
+  margin-left: 15px!important;
+}
